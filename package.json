@@ -1,0 +1,9 @@
+{
+  "name": "issues",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Shuunen/issues.git",
+  "author": "Romain Racamier-Lafon <romain.racamier@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
