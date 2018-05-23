@@ -9,5 +9,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
+  },
+  "dependencies": {
+    "exiftool-vendored": "^4.24.0"
   }
 }

@@ -1,5 +1,16 @@
 console.log('issue : start')
 
-// reproduce issue here
+const { ExifTool } = require("exiftool-vendored")
+const exiftool = new ExifTool()
+const filepath = 'problematic.jpg'
 
-console.log('issue : end')
+exiftool
+  .read(filepath)
+  .then(tags => {
+    console.log('got tags : ', Object.keys(tags).join(', '))
+  })
+  .then(() => {
+    console.log('closing exiftool instance')
+    exiftool.end()
+    console.log('issue : end')
+  })
