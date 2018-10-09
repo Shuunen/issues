@@ -1,5 +1,7 @@
 console.log('issue : start')
 
-// reproduce issue here
+const internalIp = require('internal-ip');
+
+console.log(internalIp.v4.sync())
 
 console.log('issue : end')

@@ -8,6 +8,16 @@
   "private": true,
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev-ts": "nodemon --watch index.ts --exec ts-node index.ts",
+    "start": "node index.js",
+    "start-ts": "ts-node index.ts"
+  },
+  "dependencies": {
+    "internal-ip": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/internal-ip": "^2.0.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
   }
 }
