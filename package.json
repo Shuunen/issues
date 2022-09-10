@@ -7,9 +7,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js ."
+    "lint": "eslint --ext .js,.html ."
   },
   "devDependencies": {
+    "@angular-eslint/template-parser": "^14.0.4",
     "eslint": "^8.23.0",
     "eslint-plugin-tailwindcss": "^3.6.1"
   }
