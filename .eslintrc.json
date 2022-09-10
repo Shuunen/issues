@@ -2,6 +2,7 @@
   "extends": [
     "plugin:tailwindcss/recommended"
   ],
+  "parser": "@typescript-eslint/parser",
   "overrides": [
     {
       "parser": "@angular-eslint/template-parser",

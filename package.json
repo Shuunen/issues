@@ -7,11 +7,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.html ."
+    "lint": "eslint --ext .js,.ts,.html ."
   },
   "devDependencies": {
     "@angular-eslint/template-parser": "^14.0.4",
+    "@typescript-eslint/parser": "^5.36.2",
     "eslint": "^8.23.0",
-    "eslint-plugin-tailwindcss": "^3.6.1"
+    "eslint-plugin-tailwindcss": "^3.6.1",
+    "typescript": "^4.8.3"
   }
 }
