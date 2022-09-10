@@ -2,13 +2,25 @@
   "extends": [
     "plugin:tailwindcss/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
   "overrides": [
     {
       "parser": "@angular-eslint/template-parser",
       "files": [
         "*.html"
       ]
+    },
+    {
+      "parser": "@typescript-eslint/parser",
+      "files": [
+        "*.ts",
+        "*.js"
+      ],
+      "rules": {
+        "indent": [
+          "error",
+          2
+        ]
+      }
     }
   ],
   "plugins": [
