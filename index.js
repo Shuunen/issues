@@ -1,5 +1,5 @@
 console.log('issue : start')
 
-// reproduce issue here
+console.log(classnames('unknown-class text-sm'))
 
 console.log('issue : end')
